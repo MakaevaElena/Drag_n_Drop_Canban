@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color: #ececec;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
 
 .col-header {
   width: 150px;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px #6d6458;
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
@@ -32,12 +32,12 @@ body {
 .item {
   width: 150px;
   height: 66px;
-  border: 1px solid #eee;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 4px 4px 9px rgba(255, 255, 255, 0.63);
   border-radius: 20px;
-  background: #f7f6f7;
+  background: #6d6458;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #ffffff;
   text-align: center;
   cursor: grab;
 }
@@ -52,13 +52,25 @@ body {
 }
 
 .start {
-  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+  background: linear-gradient(90deg, #ff9100 0%, #ffffff 150%);
 }
 
 .progress {
-  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+  background: linear-gradient(90deg, #ff9100 0%, #ffffff 150%);
 }
 
 .done {
-  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  background: linear-gradient(90deg, #ff9100 0%, #ffffff 150%);
+}
+
+.hold {
+  border: 5px solid #eee;
+}
+
+.hide {
+  display:none;
+}
+
+.hovered {
+  border-top :2px solid #6d6458;
 }
